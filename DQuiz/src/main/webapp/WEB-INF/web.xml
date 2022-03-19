@@ -1,0 +1,84 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<display-name>AdminLoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddQuestionServlet</servlet-name>
+  	<display-name>AddQuestionServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.AddQuestionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>QuizServlet</servlet-name>
+  	<display-name>QuizServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.QuizServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CalculateServlet</servlet-name>
+  	<display-name>CalculateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.CalculateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SubmitServlet</servlet-name>
+  	<display-name>SubmitServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.SubmitServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewResponseServlet</servlet-name>
+  	<display-name>ViewResponseServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dquiz.servlets.ViewResponseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddQuestionServlet</servlet-name>
+  	<url-pattern>/AddQuestionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>QuizServlet</servlet-name>
+  	<url-pattern>/QuizServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SubmitServlet</servlet-name>
+  	<url-pattern>/SubmitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewResponseServlet</servlet-name>
+  	<url-pattern>/ViewResponseServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
